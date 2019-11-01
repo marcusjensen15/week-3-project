@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -10,12 +12,18 @@
     <title>Beep, Boop</title>
   </head>
   <body>
-    <form class="form" action="index.html" method="post">
-      <input type="number" id="userInput" name="userInput">
-      <button type="submit" name="button">Click Here!</button>
+    <div class="jumbotron">
+      <h1>Beep, Boop Game!</h1>
+      <form class="form" action="index.html" method="post">
+        <div class="button-and-input">
 
+          <input type="number" id="userInput" placeholder="Input Number Here" name="userInput">
+          <button type="submit" name="button">Play Beep,Boop!</button>
+        </div>
 
-    </form>
+      </form>
+
+    </div>
     <div id="output">
 
     </div>

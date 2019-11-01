@@ -1,0 +1,27 @@
+
+body {
+
+background-color: tan;
+}
+.jumbotron {
+  margin-top: 50px;
+  text-align: center;
+
+}
+.button-and-input {
+
+  margin-top: 30px;
+
+
+}
+
+#output {
+
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
