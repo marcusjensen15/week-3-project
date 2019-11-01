@@ -29,8 +29,9 @@ function beepBoop(userInput){
 function flip(){
   if (document.getElementById("forwards").checked){
     return outputArray;
-  }else
+  }else if(document.getElementById("backwards").checked)
     return outputArray.reverse();
+    else{return outputArray;}
 };
 
 //User Logic
