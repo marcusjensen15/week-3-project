@@ -19,12 +19,12 @@ $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
     var userInput = parseInt($("#userInput").val());
-    console.log(userInput);
-
+    
     beepBoop(userInput);
     console.log(outputArray);
+    $('#userInput').val('');
+
+
   });
-
-
 
 });
