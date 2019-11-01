@@ -31,3 +31,8 @@ background-color: tan;
 #radios {
   margin-bottom: 25px;
 }
+
+#radio-header{
+  font-size: 12px;
+  margin-bottom: 15px;
+}

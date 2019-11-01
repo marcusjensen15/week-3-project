@@ -16,11 +16,11 @@ function nameCheck(input){
 function beepBoop(userInput){
   for (i=0; i <= userInput; i++){
     if(i.toString().includes("3")){
-      outputArray.push(" I'm sorry,"+ nameResult +". I'm afraid I can't do that.");
+      outputArray.push(" I'm sorry, "+ nameResult +". I'm afraid I can't do that.");
     }else if (i.toString().includes("2")){
-      outputArray.push(" Boop");
+      outputArray.push(" Boop!");
     }else if (i.toString().includes("1")){
-      outputArray.push(" Beep");
+      outputArray.push(" Beep!");
      }
     else {outputArray.push(i);}
   };
