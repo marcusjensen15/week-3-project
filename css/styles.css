@@ -6,6 +6,8 @@ background-color: tan;
 .jumbotron {
   margin-top: 50px;
   text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
 
 }
 .button-and-input {

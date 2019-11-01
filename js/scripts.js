@@ -46,3 +46,7 @@ $(document).ready(function(){
 
   });
 });
+
+// Flipping result backwards:
+//
+// Radio Button: if checked evaluate the outputArray backwards.
