@@ -17,7 +17,7 @@ _This application takes a numerical input from the user, and responds with comma
 
 ## Known Bugs
 
-_No known bugs. If you find one please let me know. My contact information is below_
+_No known bugs. If you find one let me know. My contact information is below_
 
 ## Support and contact details
 
