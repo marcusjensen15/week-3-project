@@ -29,6 +29,6 @@ _HTML, CSS, Javascript, jQuery, Bootstrap CSS Styling_
 
 ### License
 
-*MIT License*
+*MIT License Usage*
 
 Copyright (c) 2019 **_Marcus Jensen, Epicodus_**
