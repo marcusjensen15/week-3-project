@@ -5,7 +5,6 @@ var userInput;
 var nameResult;
 
 function nameCheck(input){
-
   if(input % 3 === 0){
     var name = userName;
     console.log(name);
@@ -14,8 +13,8 @@ function nameCheck(input){
     console.log(name);
   }
   return name;
-
 };
+
 function beepBoop(userInput){
   for (i=0; i <= userInput; i++){
     if(i.toString().includes("3")){
@@ -44,7 +43,6 @@ $(document).ready(function(){
     $("#output-container").slideDown("slow");
     $('#userInput').val('');
     $('#userNameInput').val('');
-
 
   });
 });
