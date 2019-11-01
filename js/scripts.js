@@ -42,3 +42,6 @@ $(document).ready(function(){
   var userInput = 5; //will need to parseInt userInput
 
 });
+
+//accept input from user
+cut up user input into an array of numbers
