@@ -7,10 +7,8 @@ var nameResult;
 function nameCheck(input){
   if(input % 3 === 0){
     var name = userName;
-    console.log(name);
   }else {
     name = " Dave";
-    console.log(name);
   }
   return name;
 };
@@ -28,6 +26,13 @@ function beepBoop(userInput){
   };
 };
 
+function flip(){
+  if (document.getElementById("forwards").checked){
+    return outputArray;
+  }else
+    return outputArray.reverse();
+};
+
 //User Logic
 $(document).ready(function(){
   $("form").submit(function(event){
@@ -37,8 +42,8 @@ $(document).ready(function(){
      userInput = parseInt($("#userInput").val());
      nameResult = nameCheck(userInput);
     $("#output-container").hide();
-
     beepBoop(userInput);
+    outputArray = flip();
     $("#output").text(outputArray);
     $("#output-container").slideDown("slow");
     $('#userInput').val('');
@@ -46,7 +51,3 @@ $(document).ready(function(){
 
   });
 });
-
-// Flipping result backwards:
-//
-// Radio Button: if checked evaluate the outputArray backwards.
