@@ -39,7 +39,7 @@ $(document).ready(function(){
   $("form").submit(function(event){
      event.preventDefault();
      outputArray = [];
-     userName = $('#userNameInput').val();  //this is new
+     userName = $('#userNameInput').val();  
      userInput = parseInt($("#userInput").val());
      nameResult = nameCheck(userInput);
     $("#output-container").hide();
